@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.main-doc{
+    display: flex;
+    width: 100%;
+}
+#navbar{
+    height: 100vh;
+    width: 26vw;
+    overflow: scroll;
+    position: sticky;
+    top: 0;
+}
+#navbar ul{
+list-style: none;
+}
+#navbar ul li{
+margin: 2em;
+}
+#navbar ul li a{
+text-decoration: none;
+color: rgb(36, 32, 32);
+font-size: 20px;
+
+}
+#h1{
+    text-align: center;
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+.main-section{
+    width: 74vw;
+}
+.h2{
+    margin: .8em;
+    margin-left: -0.5em;
+}
+
+#introduction{
+    
+    margin-left: 2em;
+    font-size: 1.5em;
+}
+#introduction ul{
+    margin: 1.5em;
+}
+.h3{
+   margin-left: -.7em;
+   margin-bottom: .5em;
+}
+.h4,.h5,.h6,.h7,.h8,.h9,.h10{
+    margin-left: -0.6em;
+    margin-bottom: 0.5em;
+}
+#JavaScript_and_Java{
+    font-size: 1em;
+}
+span{
+    background-color: rgb(190, 181, 181);
+}
+@media(max-width:950px){
+    .main-doc{
+        display: block;
+        width: 100%;
+    }
+    #navbar{
+        
+    width: 100%;
+    overflow: scroll;
+    height: 59vh;
+    position: unset;
+    top: 0;
+    }
+
+}
+
